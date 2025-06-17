@@ -5,6 +5,9 @@ This repository provides a **secondary encapsulation of the FFmpeg multimedia fr
 ### Notebooklm Audio
 [readme.webm](https://github.com/user-attachments/assets/719c0e1f-6b87-4b49-87cd-9364b8b9a083)
 
+###Mind Map
+![NotebookLM Mind Map](https://github.com/user-attachments/assets/7aa341f0-3a56-44f4-b32f-ef47ab7c68b8)
+
 ## Purpose
 
 The primary purpose of `FFmpegxrosKit` is to abstract the complexities of directly interacting with the FFmpeg command-line tools in an Apple Vision Pro application. By providing an Objective-C/Swift wrapper, it offers a more native and developer-friendly interface for multimedia processing tasks. This encapsulation facilitates tasks that would otherwise require intricate handling of low-level C APIs and command-line arguments.
