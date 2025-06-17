@@ -38,3 +38,6 @@ This FFmpeg wrapper addresses several key challenges faced when developing multi
 *   **Streamlines Media Information Retrieval**: Instead of parsing raw text output from `ffprobe` commands, the wrapper provides structured access to media metadata via `NSMutableDictionary`. It also offers direct properties like `isPCM` for specific analysis needs, simplifying checks like whether a file is in PCM format.
 *   **Standardizes Command Construction**: The `FFmpegCmdFormat` class provides a consistent and error-resistant method for building `ffmpeg` commands, abstracting string concatenation and ensuring proper formatting of arguments.
 *   **Manages Operational State**: The `FFmpegCmdStatus` enum (Idle, Ready, Running, Cancel, Done) provides clear state management for FFmpeg operations, allowing developers to build more robust and responsive applications.
+
+## Important Notes
+The FFmpeg for xor static library is not provided in the project. Please navigate to [Shell](https://github.com/kewlbear/FFmpeg-iOS-build-script) and use the provided script to compile it yourself.
